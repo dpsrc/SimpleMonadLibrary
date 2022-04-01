@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>SuccessOrFailureMonadDemo</AssemblyName>
+    <RootNamespace>SuccessOrFailureMonadDemo</RootNamespace>
+    <StartupObject>SuccessOrFailureMonad.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleSuccessOrFailureMonadLibrary\SimpleSuccessOrFailureMonadLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
