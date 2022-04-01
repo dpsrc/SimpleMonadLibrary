@@ -13,13 +13,13 @@ tab_width = 4
 
 # New line preferences
 end_of_line = crlf
-insert_final_newline =true
+insert_final_newline = false
 
 #### .NET Coding Conventions ####
 
 # Organize usings
 dotnet_separate_import_directive_groups = true
-dotnet_sort_system_directives_first = false
+dotnet_sort_system_directives_first = true
 file_header_template = unset
 
 # this. and Me. preferences
@@ -86,7 +86,7 @@ csharp_style_expression_bodied_indexers = true
 csharp_style_expression_bodied_lambdas = true
 csharp_style_expression_bodied_local_functions = false
 csharp_style_expression_bodied_methods = false
-csharp_style_expression_bodied_operators = false
+csharp_style_expression_bodied_operators = true
 csharp_style_expression_bodied_properties = true
 
 # Pattern matching preferences
@@ -153,7 +153,7 @@ csharp_space_after_comma = true
 csharp_space_after_dot = false
 csharp_space_after_keywords_in_control_flow_statements = true
 csharp_space_after_semicolon_in_for_statement = true
-csharp_space_around_binary_operators = before_and_after
+csharp_space_around_binary_operators = none
 csharp_space_around_declaration_statements = false
 csharp_space_before_colon_in_inheritance_clause = true
 csharp_space_before_comma = false
@@ -165,7 +165,7 @@ csharp_space_between_method_call_empty_parameter_list_parentheses = false
 csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_between_method_call_parameter_list_parentheses = false
 csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
-csharp_space_between_method_declaration_name_and_open_parenthesis =false
+csharp_space_between_method_declaration_name_and_open_parenthesis = false
 csharp_space_between_method_declaration_parameter_list_parentheses = false
 csharp_space_between_parentheses = false
 csharp_space_between_square_brackets = false
@@ -215,6 +215,3 @@ dotnet_naming_style.begins_with_i.required_prefix = I
 dotnet_naming_style.begins_with_i.required_suffix = 
 dotnet_naming_style.begins_with_i.word_separator = 
 dotnet_naming_style.begins_with_i.capitalization = pascal_case
-
-[*.{cs,vb}]
-dotnet_style_qualification_for_field=true:silent
